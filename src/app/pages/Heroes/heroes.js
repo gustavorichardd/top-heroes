@@ -12,7 +12,7 @@ import { heroList } from "@/assets/heroesList"
 //Styles
 import styles from './Heroes.module.css'
 
-export default function Heroes() {
+function Heroes() {
     const [alphabeticallOrder, setAlphabeticallOrder] = React.useState("asc")
 
     const getHeroBorder = (rarity) => {
@@ -95,3 +95,5 @@ export default function Heroes() {
         </section>
     )
 }
+
+export default Heroes
