@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 20px;
+
+    .logo {
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+}
