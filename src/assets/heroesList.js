@@ -4,8 +4,8 @@ const heroList = [
       faction: "league",
       rarity: "mythic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 11],
@@ -28,8 +28,8 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 11],
@@ -40,8 +40,8 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 12],
@@ -64,8 +64,8 @@ const heroList = [
       faction: "nature",
       rarity: "rare",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, 11],
@@ -76,8 +76,8 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 12],
@@ -88,8 +88,8 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, 5, 7],
@@ -112,8 +112,8 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [3, 6, 7],
@@ -124,8 +124,8 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 5],
@@ -136,8 +136,8 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 6],
@@ -148,8 +148,8 @@ const heroList = [
       faction: "league",
       rarity: "epic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, 5, 11],
@@ -160,8 +160,8 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [3, 5, 8],
@@ -172,8 +172,8 @@ const heroList = [
       faction: "nature",
       rarity: "epic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [3, 6],
@@ -184,8 +184,8 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 11],
@@ -196,8 +196,8 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [4, 6, 8],
@@ -208,8 +208,8 @@ const heroList = [
       faction: "horde",
       rarity: "rare",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, 5],
@@ -220,8 +220,8 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, "burst", 11],
@@ -232,8 +232,8 @@ const heroList = [
       faction: "nature",
       rarity: "rare",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [4, 11],
@@ -244,8 +244,8 @@ const heroList = [
       faction: "league",
       rarity: "rare",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [3, 6],
@@ -256,8 +256,8 @@ const heroList = [
       faction: "horde",
       rarity: "epic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [3, 7],
@@ -268,8 +268,8 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, "burst", 6],
@@ -280,8 +280,8 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, 5, 6],
@@ -292,8 +292,8 @@ const heroList = [
       faction: "league",
       rarity: "rare",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst"],
@@ -304,8 +304,8 @@ const heroList = [
       faction: "horde",
       rarity: "epic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst"],
@@ -316,8 +316,8 @@ const heroList = [
       faction: "league",
       rarity: "rare",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, 11],
@@ -328,8 +328,8 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [4, 6, 12],
@@ -340,8 +340,8 @@ const heroList = [
       faction: "league",
       rarity: "epic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, 6],
@@ -352,8 +352,8 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, 5, 11],
@@ -364,8 +364,8 @@ const heroList = [
       faction: "nature",
       rarity: "mythic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 5],
@@ -376,8 +376,8 @@ const heroList = [
       faction: "horde",
       rarity: "mythic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, "burst", 11],
@@ -388,8 +388,8 @@ const heroList = [
       faction: "horde",
       rarity: "epic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, 7],
@@ -400,8 +400,8 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, "burst", 7],
@@ -412,8 +412,8 @@ const heroList = [
       faction: "nature",
       rarity: "epic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, 8],
@@ -424,8 +424,8 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [3, 6, 11],
@@ -436,8 +436,8 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 7],
@@ -448,8 +448,8 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [4, "burst", 11],
@@ -460,8 +460,8 @@ const heroList = [
       faction: "league",
       rarity: "epic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Campeao",
          mythic: ""
       },
       traits: [4, 6],
@@ -472,8 +472,8 @@ const heroList = [
       faction: "league",
       rarity: "mythic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, "burst", 5],
@@ -484,8 +484,8 @@ const heroList = [
       faction: "nature",
       rarity: "mythic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Fortaleza",
+         legendary: "Terran",
          mythic: ""
       },
       traits: [2, "burst", 6],
@@ -496,8 +496,8 @@ const heroList = [
       faction: "horde",
       rarity: "mythic",
       suggestEquip: {
-         epic: "",
-         legendary: "",
+         epic: "Cavaleiro",
+         legendary: "Sabio",
          mythic: ""
       },
       traits: [1, "burst", 11],
