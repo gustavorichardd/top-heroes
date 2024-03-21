@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 import logo from "../assets/logo.png"
+import Heroes from "./pages/Heroes/page";
 
 export default function Home() {
   const [pageSelected, setPageSelected] = React.useState("home")
@@ -12,10 +13,15 @@ export default function Home() {
 
   console.log("pageSelected", pageSelected)
 
-  function hangleOpenMenu() {
+  React.useEffect(() => {
+    setOpenMenu(false)
+  }, [pageSelected])
+
+  const hangleOpenMenu = () => {
     setOpenMenu(!openMenu)
   }
 
+  const onChangePage = () => { }
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start gap-10 pb-10">
@@ -56,7 +62,7 @@ export default function Home() {
             }
 
             case "heroes": {
-              return <span className='text-white shadow-black'>Página dos heróis</span>
+              return <Heroes />
             }
             case "blacksmith": {
               return <span className='text-white shadow-black'>Página dos equipamentos</span>

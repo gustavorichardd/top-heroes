@@ -10,7 +10,7 @@ import Link from "next/link"
 //Helpers
 
 //Styles
-import logo from "/public/logo.webp"
+import logo from "../../../assets/logo.png"
 import styles from './Header.module.css'
 
 export const Header = () => {
