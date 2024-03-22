@@ -6,9 +6,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst", 11],
+      traits: [1, 10, 11],
       image: "/assets/heroes/paragon.png"
    },
    {
@@ -16,11 +16,11 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
-         legendary: "",
-         mythic: ""
+         epic: "Fortaleza",
+         legendary: "Terran",
+         mythic: "Trovão"
       },
-      traits: [2, "sustentado", 6],
+      traits: [2, 9, 6],
       image: "/assets/heroes/adjudicador.png"
    },
    {
@@ -30,9 +30,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst", 11],
+      traits: [1, 10, 11],
       image: "/assets/heroes/piromante.png"
    },
    {
@@ -42,9 +42,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst", 12],
+      traits: [1, 10, 12],
       image: "/assets/heroes/andarilho-do-vento.png"
    },
    {
@@ -66,7 +66,7 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
       traits: [1, 11],
       image: "/assets/heroes/arqueiro.png"
@@ -78,9 +78,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst", 12],
+      traits: [1, 10, 12],
       image: "/assets/heroes/astrologista.png"
    },
    {
@@ -90,7 +90,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
       traits: [2, 5, 7],
       image: "/assets/heroes/barbaro.png"
@@ -114,21 +114,21 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [3, 6, 7],
       image: "/assets/heroes/bruxo.png"
    },
    {
-      name: "Caça Cabeças",
+      name: "Caça-Cabeças",
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst", 5],
+      traits: [1, 10, 5],
       image: "/assets/heroes/caca-cabecas.png"
    },
    {
@@ -138,9 +138,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst", 6],
+      traits: [1, 9, 6],
       image: "/assets/heroes/cacador-da-selva.png"
    },
    {
@@ -150,7 +150,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
       traits: [2, 5, 11],
       image: "/assets/heroes/cavaleiro.png"
@@ -162,7 +162,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [3, 5, 8],
       image: "/assets/heroes/dama-da-floresta.png"
@@ -174,7 +174,7 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [3, 6],
       image: "/assets/heroes/dancarino.png"
@@ -186,9 +186,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst", 11],
+      traits: [1, 9, 11],
       image: "/assets/heroes/desbravador.png"
    },
    {
@@ -198,7 +198,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [4, 6, 8],
       image: "/assets/heroes/druida.png"
@@ -210,7 +210,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
       traits: [2, 5],
       image: "/assets/heroes/escolta.png"
@@ -222,9 +222,9 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
-      traits: [2, "burst", 11],
+      traits: [2, 9, 11],
       image: "/assets/heroes/espadachim.png"
    },
    {
@@ -234,7 +234,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [4, 11],
       image: "/assets/heroes/Farmaceutico.png"
@@ -246,7 +246,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [3, 6],
       image: "/assets/heroes/ferreiro.png"
@@ -258,21 +258,21 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [3, 7],
       image: "/assets/heroes/fora-da-lei.png"
    },
    {
-      name: "Guarda Arvore",
+      name: "Guarda-Arvore",
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
-      traits: [2, "burst", 6],
+      traits: [2, 9, 6],
       image: "/assets/heroes/guarda-arvore.png"
    },
    {
@@ -282,7 +282,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
       traits: [2, 5, 6],
       image: "/assets/heroes/guardiao-do-segredo.png"
@@ -294,9 +294,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst"],
+      traits: [1, 9],
       image: "/assets/heroes/guerreiro.png"
    },
    {
@@ -306,9 +306,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst"],
+      traits: [1, 9],
       image: "/assets/heroes/lutador.png"
    },
    {
@@ -318,7 +318,7 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
       traits: [1, 11],
       image: "/assets/heroes/mago.png"
@@ -330,7 +330,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [4, 6, 12],
       image: "/assets/heroes/freira.png"
@@ -342,7 +342,7 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
       traits: [1, 6],
       image: "/assets/heroes/patrulheiro.png"
@@ -354,7 +354,7 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
       traits: [1, 5, 11],
       image: "/assets/heroes/pedreiro.png"
@@ -366,9 +366,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst", 5],
+      traits: [1, 10, 5],
       image: "/assets/heroes/pixie.png"
    },
    {
@@ -378,9 +378,9 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
-      traits: [2, "burst", 11],
+      traits: [2, 9, 11],
       image: "/assets/heroes/principe-do-deserto.png"
    },
    {
@@ -390,7 +390,7 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
       traits: [1, 7],
       image: "/assets/heroes/rogue.png"
@@ -402,9 +402,9 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
-      traits: [2, "burst", 7],
+      traits: [2, 9, 7],
       image: "/assets/heroes/sabio.png"
    },
    {
@@ -414,7 +414,7 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
       traits: [1, 8],
       image: "/assets/heroes/sacerdotisa.png"
@@ -426,7 +426,7 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [3, 6, 11],
       image: "/assets/heroes/soulmancer.png"
@@ -438,9 +438,9 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
-      traits: [1, "burst", 7],
+      traits: [1, 10, 7],
       image: "/assets/heroes/vigilante.png"
    },
    {
@@ -450,9 +450,9 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
-      traits: [4, "burst", 11],
+      traits: [4, 9, 11],
       image: "/assets/heroes/xama.png"
    },
    {
@@ -462,7 +462,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Campeao",
-         mythic: ""
+         mythic: "Luz Sagrada"
       },
       traits: [4, 6],
       image: "/assets/heroes/sacerdote.png"
@@ -474,7 +474,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
       traits: [2, "burst", 5],
       image: "/assets/heroes/princesa-rosa.png"
@@ -486,7 +486,7 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: "Terran",
-         mythic: ""
+         mythic: "Trovão"
       },
       traits: [2, "burst", 6],
       image: "/assets/heroes/noimage.png"
@@ -498,7 +498,7 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: "Sabio",
-         mythic: ""
+         mythic: "Solar"
       },
       traits: [1, "burst", 11],
       image: "/assets/heroes/noimage.png"
