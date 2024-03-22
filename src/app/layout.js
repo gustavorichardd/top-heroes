@@ -5,7 +5,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Top Heroes',
-  description: 'Created by SHIKAMARU (sv9&17)',
+  description: 'Created by SASUKE (sv29)',
+  "google-adsense-account": "ca-pub-6769886548129317"
 }
 
 export default function RootLayout({ children }) {
