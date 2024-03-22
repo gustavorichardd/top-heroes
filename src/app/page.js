@@ -8,10 +8,11 @@ import logo from "../assets/logo.png"
 import Heroes from "./pages/Heroes/heroes";
 
 export default function Home() {
-  const [pageSelected, setPageSelected] = React.useState("home")
+  const [pageSelected, setPageSelected] = React.useState("heroes")
   const [openMenu, setOpenMenu] = React.useState(false)
 
-  console.log("pageSelected", pageSelected)
+
+  // console.log("pageSelected", pageSelected)
 
   React.useEffect(() => {
     setOpenMenu(false)
@@ -21,7 +22,7 @@ export default function Home() {
     setOpenMenu(!openMenu)
   }
 
-  const onChangePage = () => { }
+
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start gap-10 pb-10">
@@ -52,8 +53,7 @@ export default function Home() {
         </div> : ""}
       </header>
 
-      <div>
-
+      <div className="flex flex-col w-full items-start justify-start border-b-2">
         {(() => {
 
           switch (pageSelected) {

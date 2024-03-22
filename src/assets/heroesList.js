@@ -508,7 +508,7 @@ const heroList = [
 const traitsList = [
    {
       id: 1,
-      name: 1,
+      name: "DPS",
       description: "Este herói se destaca em causar dano.",
       bonus: "Dano final +3%",
       icon: ""
