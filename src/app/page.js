@@ -1,6 +1,7 @@
 "use client"
 import React from "react"
 import Image from 'next/image'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,10 +12,10 @@ export default function Home() {
   const [pageSelected, setPageSelected] = React.useState("heroes")
   const [openMenu, setOpenMenu] = React.useState(false)
 
-
   // console.log("pageSelected", pageSelected)
 
   React.useEffect(() => {
+    piwikHandler().then()
     setOpenMenu(false)
   }, [pageSelected])
 
@@ -22,6 +23,11 @@ export default function Home() {
     setOpenMenu(!openMenu)
   }
 
+  const piwikHandler = async () => {
+    // PageViews.trackPageView("acessou a página")
+    // const userData = await UserManagement.getVisitorInfo()
+    // console.log("userData", userData)
+  }
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start gap-10 pb-10">
