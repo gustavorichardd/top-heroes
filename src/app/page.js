@@ -1,7 +1,6 @@
 "use client"
 import React from "react"
 import Image from 'next/image'
-import PiwikPro from '@piwikpro/react-piwik-pro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
@@ -23,7 +22,6 @@ export default function Home() {
     setOpenMenu(!openMenu)
   }
 
-  PiwikPro.initialize('db39fb12-11ed-48e6-887c-6a9a29adf1cd', 'https://top-heroes.piwik.pro');
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start gap-10 pb-10">
