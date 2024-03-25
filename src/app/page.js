@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 import logo from "../assets/logo.png"
-import Heroes from "./pages/Heroes/heroes";
+import Heroes from "./pages/Heroes/Heroes";
 import About from "./pages/About/About";
 
 export default function Home() {
