@@ -7,6 +7,7 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 import logo from "../assets/logo.png"
 import Heroes from "./pages/Heroes/heroes";
+import About from "./pages/About/About";
 
 export default function Home() {
   const [pageSelected, setPageSelected] = React.useState("heroes")
@@ -55,6 +56,9 @@ export default function Home() {
           <div>
             <p onClick={() => setPageSelected("updated")}>Informações</p>
           </div>
+          <div>
+            <p onClick={() => setPageSelected("about")}>Sobre</p>
+          </div>
         </div> : ""}
       </header>
 
@@ -78,6 +82,10 @@ export default function Home() {
 
             case "updated": {
               return <span className='text-white shadow-black'>Página das atualizações</span>
+            }
+
+            case "about": {
+              return <About />
             }
             default: {
               return <></>
