@@ -6,8 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 import logo from "../assets/logo.png"
-import Heroes from "./pages/Heroes/Heroes";
-import About from "./pages/About/About";
+import Heroes from "./pages/Heroes/heroes";
+import About from "./pages/About/about";
 
 export default function Home() {
   const [pageSelected, setPageSelected] = React.useState("heroes")
