@@ -30,7 +30,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start gap-10 pb-10">
+    <main className="flex min-h-screen flex-col items-center justify-start gap-10 pb-10 max-h-screen">
       <header className="flex flex-col w-full items-center justify-between border-b-2 p-5">
         <div className="flex flex-row w-full items-center justify-between">
           <Image width={60} height={60}

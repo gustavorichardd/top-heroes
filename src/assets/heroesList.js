@@ -237,7 +237,7 @@ const heroList = [
          mythic: "Luz Sagrada"
       },
       traits: [4, 11],
-      image: "/assets/heroes/Farmaceutico.png"
+      image: "/assets/heroes/farmaceutico.png"
    },
    {
       name: "Ferreiro",

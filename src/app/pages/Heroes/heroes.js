@@ -2,6 +2,7 @@ import React from "react"
 //External libs
 import Image from "next/image"
 
+
 //Components
 import FilterItem from "@/app/components/FilterItem/FilterItem"
 import { heroList, traitsList } from "@/assets/heroesList"
@@ -9,12 +10,15 @@ import { heroList, traitsList } from "@/assets/heroesList"
 //Controllers
 
 //Helpers
+import { getHeroBorder, getHeroBackground } from "../../helpers/heroHelper"
 
 //Styles
 import styles from './Heroes.module.css'
+import ModalHero from "@/app/modals/ModalHero/ModalHero"
 
 function Heroes() {
     const [alphabeticallOrder, setAlphabeticallOrder] = React.useState("asc")
+    const [modalHero, setModalHero] = React.useState({ content: null, status: true })
     const [filterSelected, setFilterSelected] = React.useState({
         faction: [],
         rarity: [],
@@ -22,43 +26,8 @@ function Heroes() {
     })
     const factions = [{ name: "Liga", id: "league" }, { name: "Horda", id: "horde" }, { name: "Natureza", id: "nature" }]
     const rarities = [{ name: "Mítico", id: "mythic" }, { name: "Lendário", id: "legendary" }, { name: "Épico", id: "epic" }, { name: "Raro", id: "rare" }]
-    console.log("filterSelected", filterSelected)
-    const getHeroBorder = (rarity) => {
-        switch (rarity) {
-            case "rare": {
-                return "#7AC8F5"
-            }
-            case "epic": {
-                return "#DE8EED"
-            }
-            case "legendary": {
-                return "#F7BC76"
-            }
-            case "mythic": {
-                return "#EA7C6D"
-            }
-            default: {
-                return ""
-            }
-        }
-    }
 
-    const getHeroBackground = (rarity) => {
-        switch (rarity) {
-            case "league": {
-                return "#69B5F2"
-            }
-            case "nature": {
-                return "#AED45D"
-            }
-            case "horde": {
-                return "#E48065"
-            }
-            default: {
-                return ""
-            }
-        }
-    }
+
 
     const heroOrder = (heroA, heroB) => {
         if (alphabeticallOrder === "asc") {
@@ -137,7 +106,7 @@ function Heroes() {
         }
         return newHeroList
     }
-
+    console.log("modalHero", modalHero)
     return (
         <section className={styles.heroes}>
             <div className={styles.heroesHeader}>
@@ -164,7 +133,9 @@ function Heroes() {
                     return <div key={index} className={styles.heroBodyItem} style={{
                         borderColor: getHeroBorder(hero.rarity),
                         backgroundColor: getHeroBackground(hero.faction)
-                    }}>
+                    }}
+                        onClick={() => setModalHero({ status: true, content: hero })}
+                    >
                         <strong>{hero.name}</strong>
                         <Image src={hero.image}
                             alt={hero.name}
@@ -177,7 +148,7 @@ function Heroes() {
                 }))}
             </div>
 
-
+            {modalHero.status ? <ModalHero content={modalHero.content} onClose={() => setModalHero({ status: false, content: null })} /> : ""}
         </section>
     )
 }
