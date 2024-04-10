@@ -36,12 +36,5 @@ const getHeroBackground = (rarity) => {
    }
 }
 
-const getFaction = (faction) => {
-   switch (faction) {
-      case "nature": return "Natureza"
-      case "horde": return "Horda"
-      case "league": return "Liga"
-   }
-}
 
-export { getHeroBackground, getHeroBorder, getFaction }
+export { getHeroBackground, getHeroBorder }

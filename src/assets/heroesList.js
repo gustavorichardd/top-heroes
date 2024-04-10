@@ -597,7 +597,7 @@ const traitsList = [
    },
    {
       id: 9,
-      name: "Sustainged",
+      name: "Sustained",
       description: "This hero specializes in inflicting special efforts on attacks and engaging in sustained combat.",
       icon: ""
    },

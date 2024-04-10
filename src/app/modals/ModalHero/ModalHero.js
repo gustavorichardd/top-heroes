@@ -9,7 +9,7 @@ import equipmentList from "@/assets/equipmentList";
 // import { legendaryEquipmentList, mythicPlusEquipmentList } from "@/assets/equipmentList";
 
 //Helpers
-import { getHeroBorder, getHeroBackground, getFaction } from "../../helpers/heroHelper"
+import { getHeroBorder, getHeroBackground } from "../../helpers/heroHelper"
 import { captalizeText } from "@/app/helpers/textHelper";
 
 import styles from "./ModalHero.module.css"
@@ -38,7 +38,7 @@ const ModalHero = ({ content, onClose }) => {
             <div className={styles.ModalHeroContentBody}>
                <Image src={content.image} alt={content.name} width={200} height={200} />
                <div className={styles.ModalHeroContentBodyBlock} style={{ flexDirection: "row" }}>
-                  <strong>Faction: </strong><span>{getFaction(content.faction)}</span>
+                  <strong>Faction: </strong><span>{captalizeText(content.faction)}</span>
                </div>
                <div className={styles.ModalHeroContentBodyBlock} style={{ flexDirection: "column" }}>
                   <strong>Traits: </strong>
