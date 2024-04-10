@@ -31,7 +31,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 10, 11],
       image: "/assets/heroes/pyromancer.png"
@@ -43,7 +44,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 10, 12],
       image: "/assets/heroes/windwalker.png"
@@ -68,7 +70,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 11],
       image: "/assets/heroes/archer.png"
@@ -80,7 +83,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 10, 12],
       image: "/assets/heroes/astrologer.png"
@@ -105,7 +109,8 @@ const heroList = [
       suggestEquip: {
          epic: "",
          legendary: [5, 6, 7, 8],
-         mythic: ""
+         mythic: "",
+         mythicPlus: [],
       },
       traits: [3, 6, 11],
       image: "/assets/heroes/bard.png"
@@ -117,7 +122,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [3, 6, 7],
       image: "/assets/heroes/warlock.png"
@@ -129,7 +135,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 10, 5],
       image: "/assets/heroes/headhunter.png"
@@ -141,7 +148,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 9, 6],
       image: "/assets/heroes/wilderness-hunter.png"
@@ -166,7 +174,8 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [3, 5, 8],
       image: "/assets/heroes/forest-maiden.png"
@@ -178,7 +187,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [3, 6],
       image: "/assets/heroes/dancer.png"
@@ -190,7 +200,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 9, 11],
       image: "/assets/heroes/pathfinder.png"
@@ -202,7 +213,8 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [4, 6, 8],
       image: "/assets/heroes/druid.png"
@@ -240,7 +252,8 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [4, 11],
       image: "/assets/heroes/pharmacist.png"
@@ -252,7 +265,8 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [3, 6],
       image: "/assets/heroes/blacksmith.png"
@@ -264,7 +278,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [3, 7],
       image: "/assets/heroes/outlaw.png"
@@ -302,7 +317,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 9],
       image: "/assets/heroes/warrior.png"
@@ -314,7 +330,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 9],
       image: "/assets/heroes/brawler.png"
@@ -326,7 +343,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 11],
       image: "/assets/heroes/wizard.png"
@@ -338,7 +356,8 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [4, 6, 12],
       image: "/assets/heroes/nun.png"
@@ -350,7 +369,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 6],
       image: "/assets/heroes/ranger.png"
@@ -362,7 +382,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 5, 11],
       image: "/assets/heroes/stonemason.png"
@@ -374,7 +395,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 10, 5],
       image: "/assets/heroes/pixie.png"
@@ -412,7 +434,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 7],
       image: "/assets/heroes/rogue.png"
@@ -437,7 +460,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 8],
       image: "/assets/heroes/priestess.png"
@@ -449,7 +473,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [3, 6, 11],
       image: "/assets/heroes/soulmancer.png"
@@ -461,7 +486,8 @@ const heroList = [
       suggestEquip: {
          epic: "Cavaleiro",
          legendary: [5, 6, 7, 8],
-         mythic: []
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [1, 10, 7],
       image: "/assets/heroes/watcher.png"
@@ -473,7 +499,8 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [4, 9, 11],
       image: "/assets/heroes/shaman.png"
@@ -485,7 +512,8 @@ const heroList = [
       suggestEquip: {
          epic: "Fortaleza",
          legendary: [9, 10, 11, 12],
-         mythic: "Luz Sagrada"
+         mythic: [],
+         mythicPlus: [],
       },
       traits: [4, 6],
       image: "/assets/heroes/minister.png"
@@ -500,7 +528,7 @@ const heroList = [
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
       },
-      traits: [2, "burst", 5],
+      traits: [2, 10, 5],
       image: "/assets/heroes/rose-princess.png"
    },
    {
@@ -513,7 +541,7 @@ const heroList = [
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
       },
-      traits: [2, "burst", 6],
+      traits: [2, 10, 6],
       image: "/assets/heroes/monk.png"
    }
 ]
@@ -535,7 +563,6 @@ const traitsList = [
       id: 3,
       name: "Supporter",
       description: "This hero excels at offering strategic assistance, raising maximum HP by 5%.",
-      bonus: "HP máximo +5%",
       icon: ""
    },
    {
@@ -560,42 +587,36 @@ const traitsList = [
       id: 7,
       name: "Debuff",
       description: "This hero is capable of inflicting debuffs to enemies.",
-      bonus: "",
       icon: ""
    },
    {
       id: 8,
       name: "Summon",
       description: "This hero can summon units to join the battle.",
-      bonus: "",
       icon: ""
    },
    {
       id: 9,
       name: "Sustainged",
       description: "This hero specializes in inflicting special efforts on attacks and engaging in sustained combat.",
-      bonus: "",
       icon: ""
    },
    {
       id: 10,
       name: "Burst Damage",
       description: "This hero specializes in using skills to inflict high burst damage in a short period.",
-      bonus: "",
       icon: ""
    },
    {
       id: 11,
       name: "Multi-target",
       description: "This hero specializes in dealing area-of-effect (AoE) damage.",
-      bonus: "",
       icon: ""
    },
    {
       id: 12,
       name: "Single Target",
       description: "This hero specializes in dealing single-target damage.",
-      bonus: "",
       icon: ""
    },
 ]
