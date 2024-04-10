@@ -8,6 +8,7 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import logo from "../assets/logo.png"
 import Heroes from "./pages/Heroes/heroes";
 import About from "./pages/About/about";
+import Equipments from "./pages/Equipments/equipments";
 
 export default function Home() {
   const [pageSelected, setPageSelected] = React.useState("heroes")
@@ -66,7 +67,7 @@ export default function Home() {
               return <Heroes />
             }
             case "blacksmith": {
-              return <span className='text-white shadow-black'>Página dos equipamentos</span>
+              return <Equipments />
             }
             case "tips": {
               return <span className='text-white shadow-black'>SPágina das dicas</span>

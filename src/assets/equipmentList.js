@@ -8,17 +8,17 @@ const epicEquipmentList = [
    },
    {
       id: 2,
-      name: "Terran Heavy Boots",
+      name: "Fortress Heavy Boots",
       slot: "boots",
-      set: "terran",
-      image: "/assets/equipments/terrain_boots.png"
+      set: "fortress",
+      image: "/assets/equipments/fortress_boots.png"
    },
    {
       id: 3,
-      name: "Terran Heavy Armor",
+      name: "Fortress Heavy Armor",
       slot: "armor",
-      set: "terran",
-      image: "/assets/equipments/terrain_armor.png"
+      set: "fortress",
+      image: "/assets/equipments/fortress_armor.png"
    },
    {
       id: 4,

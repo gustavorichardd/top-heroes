@@ -16,7 +16,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -55,7 +55,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -94,7 +94,7 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -159,7 +159,7 @@ const heroList = [
       faction: "league",
       rarity: "epic",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -224,7 +224,7 @@ const heroList = [
       faction: "horde",
       rarity: "rare",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -237,7 +237,7 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -289,7 +289,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -302,7 +302,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -406,7 +406,7 @@ const heroList = [
       faction: "horde",
       rarity: "mythic",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -419,7 +419,7 @@ const heroList = [
       faction: "horde",
       rarity: "mythic",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -445,7 +445,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -523,7 +523,7 @@ const heroList = [
       faction: "league",
       rarity: "mythic",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -536,7 +536,7 @@ const heroList = [
       faction: "nature",
       rarity: "mythic",
       suggestEquip: {
-         epic: [],
+         epic: [1, 2, 3, 4],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],

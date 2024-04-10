@@ -61,16 +61,16 @@ const ModalHero = ({ content, onClose }) => {
 
                   {Object.keys(content.suggestEquip).map((rarity, indexRarity) => {
 
-                     { console.log(" ") }
-                     { console.log(" ") }
-                     { console.log(" ") }
-                     { console.log(" ") }
-                     { console.log("rarity", rarity) }
-                     { console.log("suggestEquip", content.suggestEquip[rarity]) }
+                     // { console.log(" ") }
+                     // { console.log(" ") }
+                     // { console.log(" ") }
+                     // { console.log(" ") }
+                     // { console.log("rarity", rarity) }
+                     // { console.log("suggestEquip", content.suggestEquip[rarity]) }
 
-                     { console.log("equipmentList", equipmentList) }
-                     { console.log(" equipmentList[`${rarity}EquipmentList`]", equipmentList[`${rarity}EquipmentList`]) }
-                     { console.log("equipmentList", equipmentList[`${[`${rarity}EquipmentList`]}EquipmentList`]) }
+                     // { console.log("equipmentList", equipmentList) }
+                     // { console.log(" equipmentList[`${rarity}EquipmentList`]", equipmentList[`${rarity}EquipmentList`]) }
+                     // { console.log("equipmentList", equipmentList[`${[`${rarity}EquipmentList`]}EquipmentList`]) }
 
                      return <div key={indexRarity} className={styles.ModalHeroContentBodyBlockContent}>
                         {content.suggestEquip[rarity].length > 0 ? <div>
@@ -82,9 +82,7 @@ const ModalHero = ({ content, onClose }) => {
                               {content.suggestEquip[rarity].map((item, indexItem) => {
                                  const thisEquipment = equipmentList[`${rarity}EquipmentList`].find(({ id }) => id === item)
                                  if (!!thisEquipment) {
-                                    const imageLink = thisEquipment.image
-                                    // console.log("imageLink", imageLink)
-                                    return <span key={indexItem}><img src={imageLink} alt={content.name} width={50} height={50} /></span>
+                                    return <span key={indexItem}><Image src={thisEquipment.image} alt={thisEquipment.name} width={50} height={50} /></span>
                                  } else {
                                     return ""
                                  }
