@@ -37,19 +37,19 @@ export default function Home() {
 
         {openMenu ? <div className='text-white shadow-black flex justify-center items-end flex-col w-full'>
           <div>
-            <p onClick={() => setPageSelected("heroes")}>Heróis</p>
+            <p onClick={() => setPageSelected("heroes")}>Heroes</p>
           </div>
           <div>
-            <p onClick={() => setPageSelected("blacksmith")}>Equipamentos</p>
+            <p onClick={() => setPageSelected("blacksmith")}>Equipments</p>
           </div>
           <div>
-            <p onClick={() => setPageSelected("tips")}>Tutoriais</p>
+            <p onClick={() => setPageSelected("tips")}>Tips</p>
           </div>
           <div>
-            <p onClick={() => setPageSelected("updated")}>Informações</p>
+            <p onClick={() => setPageSelected("updated")}>Latest News</p>
           </div>
           <div>
-            <p onClick={() => setPageSelected("about")}>Sobre</p>
+            <p onClick={() => setPageSelected("about")}>About</p>
           </div>
         </div> : ""}
       </header>

@@ -5,359 +5,367 @@ const heroList = [
       rarity: "mythic",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 10, 11],
       image: "/assets/heroes/paragon.png"
    },
    {
-      name: "Adjudicador",
+      name: "Adjudicator",
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 9, 6],
-      image: "/assets/heroes/adjudicador.png"
+      image: "/assets/heroes/adjudicator.png"
    },
    {
-      name: "Piromante",
+      name: "Pyromancer",
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 10, 11],
-      image: "/assets/heroes/piromante.png"
+      image: "/assets/heroes/pyromancer.png"
    },
    {
-      name: "Andarilho do vento",
+      name: "Windwalker",
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 10, 12],
-      image: "/assets/heroes/andarilho-do-vento.png"
+      image: "/assets/heroes/windwalker.png"
    },
    {
-      name: "Anfitria",
+      name: "Hostess",
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
          epic: "",
-         legendary: "",
-         mythic: ""
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 5, 11],
-      image: "/assets/heroes/anfitria.png"
+      image: "/assets/heroes/hostess.png"
    },
    {
-      name: "Arqueiro",
+      name: "Archer",
       faction: "nature",
       rarity: "rare",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 11],
-      image: "/assets/heroes/arqueiro.png"
+      image: "/assets/heroes/archer.png"
    },
    {
-      name: "Astrologista",
+      name: "Astrologer",
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 10, 12],
-      image: "/assets/heroes/astrologista.png"
+      image: "/assets/heroes/astrologer.png"
    },
    {
-      name: "Barbaro",
+      name: "Barbarian",
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 5, 7],
-      image: "/assets/heroes/barbaro.png"
+      image: "/assets/heroes/barbarian.png"
    },
    {
-      name: "Bardo",
+      name: "Bard",
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
          epic: "",
-         legendary: "",
+         legendary: [5, 6, 7, 8],
          mythic: ""
       },
       traits: [3, 6, 11],
-      image: "/assets/heroes/bardo.png"
+      image: "/assets/heroes/bard.png"
    },
    {
-      name: "Bruxo",
+      name: "Warlock",
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [3, 6, 7],
-      image: "/assets/heroes/bruxo.png"
+      image: "/assets/heroes/warlock.png"
    },
    {
-      name: "Caça-Cabeças",
+      name: "Headhunter",
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 10, 5],
-      image: "/assets/heroes/caca-cabecas.png"
+      image: "/assets/heroes/headhunter.png"
    },
    {
-      name: "Cacador da Selva",
+      name: "Wilderness Hunter",
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 9, 6],
-      image: "/assets/heroes/cacador-da-selva.png"
+      image: "/assets/heroes/wilderness-hunter.png"
    },
    {
-      name: "Cavaleiro",
+      name: "Knight",
       faction: "league",
       rarity: "epic",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 5, 11],
-      image: "/assets/heroes/cavaleiro.png"
+      image: "/assets/heroes/knight.png"
    },
    {
-      name: "Dama da Floresta",
+      name: "Forest Maiden",
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [3, 5, 8],
-      image: "/assets/heroes/dama-da-floresta.png"
+      image: "/assets/heroes/forest-maiden.png"
    },
    {
-      name: "Dançarino",
+      name: "Dancer",
       faction: "nature",
       rarity: "epic",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [3, 6],
-      image: "/assets/heroes/dancarino.png"
+      image: "/assets/heroes/dancer.png"
    },
    {
-      name: "Desbravador",
+      name: "Pathfinder",
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 9, 11],
-      image: "/assets/heroes/desbravador.png"
+      image: "/assets/heroes/pathfinder.png"
    },
    {
-      name: "Druida",
+      name: "Druid",
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [4, 6, 8],
-      image: "/assets/heroes/druida.png"
+      image: "/assets/heroes/druid.png"
    },
    {
-      name: "Escolta",
+      name: "Guard",
       faction: "horde",
       rarity: "rare",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 5],
-      image: "/assets/heroes/escolta.png"
+      image: "/assets/heroes/guard.png"
    },
    {
-      name: "Espadachim",
+      name: "Swordmaster",
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 9, 11],
-      image: "/assets/heroes/espadachim.png"
+      image: "/assets/heroes/swordmaster.png"
    },
    {
-      name: "Farmaceutico",
+      name: "Pharmacist",
       faction: "nature",
       rarity: "rare",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [4, 11],
-      image: "/assets/heroes/farmaceutico.png"
+      image: "/assets/heroes/pharmacist.png"
    },
    {
-      name: "Ferreiro",
+      name: "Blacksmith",
       faction: "league",
       rarity: "rare",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [3, 6],
-      image: "/assets/heroes/ferreiro.png"
+      image: "/assets/heroes/blacksmith.png"
    },
    {
-      name: "Fora da Lei",
+      name: "Outlaw",
       faction: "horde",
       rarity: "epic",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [3, 7],
-      image: "/assets/heroes/fora-da-lei.png"
+      image: "/assets/heroes/outlaw.png"
    },
    {
-      name: "Guarda-Arvore",
+      name: "Treeguard",
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 9, 6],
-      image: "/assets/heroes/guarda-arvore.png"
+      image: "/assets/heroes/treeguard.png"
    },
    {
-      name: "Guardiao do Segredo",
+      name: "Secret Keeper",
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 5, 6],
-      image: "/assets/heroes/guardiao-do-segredo.png"
+      image: "/assets/heroes/secret-keeper.png"
    },
    {
-      name: "Guerreiro",
+      name: "Warrior",
       faction: "league",
       rarity: "rare",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 9],
-      image: "/assets/heroes/guerreiro.png"
+      image: "/assets/heroes/warrior.png"
    },
    {
-      name: "Lutador",
+      name: "Brawler",
       faction: "horde",
       rarity: "epic",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 9],
-      image: "/assets/heroes/lutador.png"
+      image: "/assets/heroes/brawler.png"
    },
    {
-      name: "Mago",
+      name: "Wizard",
       faction: "league",
       rarity: "rare",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 11],
-      image: "/assets/heroes/mago.png"
+      image: "/assets/heroes/wizard.png"
    },
    {
-      name: "Freira",
+      name: "Nun",
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [4, 6, 12],
-      image: "/assets/heroes/freira.png"
+      image: "/assets/heroes/nun.png"
    },
    {
-      name: "Patrulheiro",
+      name: "Ranger",
       faction: "league",
       rarity: "epic",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 6],
-      image: "/assets/heroes/patrulheiro.png"
+      image: "/assets/heroes/ranger.png"
    },
    {
-      name: "Pedreiro",
+      name: "Stonemason",
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 5, 11],
-      image: "/assets/heroes/pedreiro.png"
+      image: "/assets/heroes/stonemason.png"
    },
    {
       name: "Pixie",
@@ -365,23 +373,37 @@ const heroList = [
       rarity: "mythic",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 10, 5],
       image: "/assets/heroes/pixie.png"
    },
    {
-      name: "Principe do Deserto",
+      name: "Storm Maiden",
       faction: "horde",
       rarity: "mythic",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 9, 11],
-      image: "/assets/heroes/principe-do-deserto.png"
+      image: "/assets/heroes/storm-maiden.png"
+   },
+   {
+      name: "Desert Prince",
+      faction: "horde",
+      rarity: "mythic",
+      suggestEquip: {
+         epic: "Fortaleza",
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
+      },
+      traits: [2, 9, 11],
+      image: "/assets/heroes/desert-prince.png"
    },
    {
       name: "Rogue",
@@ -389,35 +411,36 @@ const heroList = [
       rarity: "epic",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 7],
       image: "/assets/heroes/rogue.png"
    },
    {
-      name: "Sabio",
+      name: "Sage",
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, 9, 7],
-      image: "/assets/heroes/sabio.png"
+      image: "/assets/heroes/sage.png"
    },
    {
-      name: "Sacerdotisa",
+      name: "Priestess",
       faction: "nature",
       rarity: "epic",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 8],
-      image: "/assets/heroes/sacerdotisa.png"
+      image: "/assets/heroes/priestess.png"
    },
    {
       name: "Soulmancer",
@@ -425,168 +448,153 @@ const heroList = [
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [3, 6, 11],
       image: "/assets/heroes/soulmancer.png"
    },
    {
-      name: "Vigilante",
+      name: "Watcher",
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
          epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
+         legendary: [5, 6, 7, 8],
+         mythic: []
       },
       traits: [1, 10, 7],
-      image: "/assets/heroes/vigilante.png"
+      image: "/assets/heroes/watcher.png"
    },
    {
-      name: "Xamã",
+      name: "Shaman",
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [4, 9, 11],
-      image: "/assets/heroes/xama.png"
+      image: "/assets/heroes/shaman.png"
    },
    {
-      name: "Sacerdote",
+      name: "Minister",
       faction: "league",
       rarity: "epic",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Campeao",
+         legendary: [9, 10, 11, 12],
          mythic: "Luz Sagrada"
       },
       traits: [4, 6],
-      image: "/assets/heroes/sacerdote.png"
+      image: "/assets/heroes/minister.png"
    },
    {
-      name: "Princesa Rosa",
+      name: "Rose Princess",
       faction: "league",
       rarity: "mythic",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, "burst", 5],
-      image: "/assets/heroes/princesa-rosa.png"
+      image: "/assets/heroes/rose-princess.png"
    },
    {
-      name: "Guerreiro Panda",
+      name: "Monk",
       faction: "nature",
       rarity: "mythic",
       suggestEquip: {
          epic: "Fortaleza",
-         legendary: "Terran",
-         mythic: "Trovão"
+         legendary: [1, 2, 3, 4],
+         mythic: [],
+         mythicPlus: [1, 2, 3, 4],
       },
       traits: [2, "burst", 6],
-      image: "/assets/heroes/noimage.png"
-   },
-   {
-      name: "Donzela da Tempestade",
-      faction: "horde",
-      rarity: "mythic",
-      suggestEquip: {
-         epic: "Cavaleiro",
-         legendary: "Sabio",
-         mythic: "Solar"
-      },
-      traits: [1, "burst", 11],
-      image: "/assets/heroes/noimage.png"
+      image: "/assets/heroes/monk.png"
    }
 ]
 
 const traitsList = [
    {
       id: 1,
-      name: "DPS",
-      description: "Este herói se destaca em causar dano.",
-      bonus: "Dano final +3%",
+      name: "Damage Dealer",
+      description: "This hero excels at dealing damage, increasing final damage by 3%.",
       icon: ""
    },
    {
       id: 2,
-      name: "Tanque",
-      description: "Este herói é excelente em tankar o dano na linha de frente.",
-      bonus: "Dano recebido -5%",
+      name: "Tank",
+      description: "This hero excels at tanking damage in the front row, reducing damage taken by 5%",
       icon: ""
    },
    {
       id: 3,
-      name: "Apoiador",
-      description: "Este herói se destaca em oferecer assistência estratégica.",
+      name: "Supporter",
+      description: "This hero excels at offering strategic assistance, raising maximum HP by 5%.",
       bonus: "HP máximo +5%",
       icon: ""
    },
    {
       id: 4,
-      name: "Curador",
-      description: "Este herói se destaca em fornecer suporte de cura.",
-      bonus: "Cura realizada +5%",
+      name: "Healer",
+      description: "This hero excels at providing healing support, enchancing healing by 5%.",
       icon: ""
    },
    {
       id: 5,
-      name: "Controle",
-      description: "Este herói é capaz de controlar inimigos.",
-      bonus: "",
+      name: "Control",
+      description: "This hero is capable of controlling enemies.",
       icon: ""
    },
    {
       id: 6,
       name: "Buff",
-      description: "Este herói é capaz de fornecer buffs aos companheiros de equipe.",
-      bonus: "",
+      description: "This hero is able to provide buss to teammates",
       icon: ""
    },
    {
       id: 7,
       name: "Debuff",
-      description: "Este herói é capaz de infligir debuffs aos inimigos.",
+      description: "This hero is capable of inflicting debuffs to enemies.",
       bonus: "",
       icon: ""
    },
    {
       id: 8,
-      name: "Invocar",
-      description: "Este herói pode convocar unidades para entrar na batalha.",
+      name: "Summon",
+      description: "This hero can summon units to join the battle.",
       bonus: "",
       icon: ""
    },
    {
       id: 9,
-      name: "Sustentado",
-      description: "Este herói é especializado em infligir efeitos especiais em ataques e engajar-se em combate contínuo.",
+      name: "Sustainged",
+      description: "This hero specializes in inflicting special efforts on attacks and engaging in sustained combat.",
       bonus: "",
       icon: ""
    },
    {
       id: 10,
-      name: "Dano Explosivo",
-      description: "Este herói é especializado em usar habilidades para infligir danos de alta explosão em um curto período.",
+      name: "Burst Damage",
+      description: "This hero specializes in using skills to inflict high burst damage in a short period.",
       bonus: "",
       icon: ""
    },
    {
       id: 11,
-      name: "Multialvo",
-      description: "Este herói é especializado em causar dano de área de efeito(AoE).",
+      name: "Multi-target",
+      description: "This hero specializes in dealing area-of-effect (AoE) damage.",
       bonus: "",
       icon: ""
    },
    {
       id: 12,
-      name: "Alvo único",
-      description: "Este herói se destaca em causar dano de alvo único.",
+      name: "Single Target",
+      description: "This hero specializes in dealing single-target damage.",
       bonus: "",
       icon: ""
    },

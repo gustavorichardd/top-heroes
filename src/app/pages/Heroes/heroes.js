@@ -24,8 +24,8 @@ function Heroes() {
         rarity: [],
         traits: [],
     })
-    const factions = [{ name: "Liga", id: "league" }, { name: "Horda", id: "horde" }, { name: "Natureza", id: "nature" }]
-    const rarities = [{ name: "Mítico", id: "mythic" }, { name: "Lendário", id: "legendary" }, { name: "Épico", id: "epic" }, { name: "Raro", id: "rare" }]
+    const factions = [{ name: "League", id: "league" }, { name: "Horde", id: "horde" }, { name: "Nature", id: "nature" }]
+    const rarities = [{ name: "Mythic", id: "mythic" }, { name: "Legendary", id: "legendary" }, { name: "Epic", id: "epic" }, { name: "Rare", id: "rare" }]
 
 
 
