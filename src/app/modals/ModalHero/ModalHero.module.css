@@ -63,11 +63,28 @@
             justify-content: center;
             width: 100%;
             gap: 3px;
-            flex-direction: row;
-            span {
-               cursor: pointer;
+            flex-direction: column;
+            
+            .ModalHeroContentBodyBlockContentTitle {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 100%;
+               gap: 3px;
+               flex-direction: column;
+               
+            }
+             .ModalHeroContentBodyBlockContentList {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 100%;
+               gap: 3px;
+               flex-direction: row;
+               
             }
          }
+         
       }
    }
 }

@@ -4,7 +4,7 @@ const heroList = [
       faction: "league",
       rarity: "mythic",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: []
       },
@@ -16,7 +16,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -29,7 +29,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -42,7 +42,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -55,7 +55,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -68,7 +68,7 @@ const heroList = [
       faction: "nature",
       rarity: "rare",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -81,7 +81,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -94,7 +94,7 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -107,7 +107,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: "",
          mythicPlus: [],
@@ -120,7 +120,7 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -133,7 +133,7 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -146,7 +146,7 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -159,7 +159,7 @@ const heroList = [
       faction: "league",
       rarity: "epic",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -172,7 +172,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -185,7 +185,7 @@ const heroList = [
       faction: "nature",
       rarity: "epic",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -198,7 +198,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -211,7 +211,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -224,7 +224,7 @@ const heroList = [
       faction: "horde",
       rarity: "rare",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -237,7 +237,7 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -250,7 +250,7 @@ const heroList = [
       faction: "nature",
       rarity: "rare",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -263,7 +263,7 @@ const heroList = [
       faction: "league",
       rarity: "rare",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -276,7 +276,7 @@ const heroList = [
       faction: "horde",
       rarity: "epic",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -289,7 +289,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -302,7 +302,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -315,7 +315,7 @@ const heroList = [
       faction: "league",
       rarity: "rare",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -328,7 +328,7 @@ const heroList = [
       faction: "horde",
       rarity: "epic",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -341,7 +341,7 @@ const heroList = [
       faction: "league",
       rarity: "rare",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -354,7 +354,7 @@ const heroList = [
       faction: "league",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -367,7 +367,7 @@ const heroList = [
       faction: "league",
       rarity: "epic",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -380,7 +380,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -393,7 +393,7 @@ const heroList = [
       faction: "nature",
       rarity: "mythic",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -406,7 +406,7 @@ const heroList = [
       faction: "horde",
       rarity: "mythic",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -419,7 +419,7 @@ const heroList = [
       faction: "horde",
       rarity: "mythic",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -432,7 +432,7 @@ const heroList = [
       faction: "horde",
       rarity: "epic",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -445,7 +445,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -458,7 +458,7 @@ const heroList = [
       faction: "nature",
       rarity: "epic",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -471,7 +471,7 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -484,7 +484,7 @@ const heroList = [
       faction: "nature",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Cavaleiro",
+         epic: [],
          legendary: [5, 6, 7, 8],
          mythic: [],
          mythicPlus: [],
@@ -497,7 +497,7 @@ const heroList = [
       faction: "horde",
       rarity: "legendary",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -510,7 +510,7 @@ const heroList = [
       faction: "league",
       rarity: "epic",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [9, 10, 11, 12],
          mythic: [],
          mythicPlus: [],
@@ -523,7 +523,7 @@ const heroList = [
       faction: "league",
       rarity: "mythic",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],
@@ -536,7 +536,7 @@ const heroList = [
       faction: "nature",
       rarity: "mythic",
       suggestEquip: {
-         epic: "Fortaleza",
+         epic: [],
          legendary: [1, 2, 3, 4],
          mythic: [],
          mythicPlus: [1, 2, 3, 4],

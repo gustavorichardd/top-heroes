@@ -5,10 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 import { traitsList } from "@/assets/heroesList";
-import { legendaryEquipmentList, mythicPlusEquipmentList } from "@/assets/equipmentList";
+import equipmentList from "@/assets/equipmentList";
+// import { legendaryEquipmentList, mythicPlusEquipmentList } from "@/assets/equipmentList";
 
 //Helpers
 import { getHeroBorder, getHeroBackground, getFaction } from "../../helpers/heroHelper"
+import { captalizeText } from "@/app/helpers/textHelper";
 
 import styles from "./ModalHero.module.css"
 
@@ -20,6 +22,8 @@ const ModalHero = ({ content, onClose }) => {
          onClose()
       }
    }
+
+
 
    if (!content) {
       return ""
@@ -34,10 +38,10 @@ const ModalHero = ({ content, onClose }) => {
             <div className={styles.ModalHeroContentBody}>
                <Image src={content.image} alt={content.name} width={200} height={200} />
                <div className={styles.ModalHeroContentBodyBlock} style={{ flexDirection: "row" }}>
-                  <strong>Facção: </strong><span>{getFaction(content.faction)}</span>
+                  <strong>Faction: </strong><span>{getFaction(content.faction)}</span>
                </div>
                <div className={styles.ModalHeroContentBodyBlock} style={{ flexDirection: "column" }}>
-                  <strong>Características: </strong>
+                  <strong>Traits: </strong>
                   {content.traits.map((trait, index) => {
                      const thisTrait = traitsList.find(({ id }) => id === trait)
                      console.log("thisTrait", thisTrait)
@@ -51,33 +55,46 @@ const ModalHero = ({ content, onClose }) => {
                </div>
                <div className={styles.ModalHeroContentBodyBlock} style={{ flexDirection: "column" }}>
                   <div className={styles.ModalHeroContentBodyBlockHeader}>
-                     <strong>Equipamentos recomendados:</strong>
-                  </div>
-                  {console.log("content.suggestEquip", content.suggestEquip)}
-                  <div className={styles.ModalHeroContentBodyBlockContent}>
-                     {content.suggestEquip.legendary.map((item, index) => {
-                        const thisEquipment = legendaryEquipmentList.find(({ id }) => id === item)
-                        if (!!thisEquipment) {
-                           const imageLink = thisEquipment.image
-                           console.log("imageLink", imageLink)
-                           return <span key={index}><img src={imageLink} alt={content.name} width={50} height={50} /></span>
-                        } else {
-                           return ""
-                        }
-                     })}
+                     <strong>Equipment recomendations:</strong>
                   </div>
 
-                  <div className={styles.ModalHeroContentBodyBlockContent}>
-                     {content.suggestEquip.mythicPlus.map((item, index) => {
-                        const thisEquipment = mythicPlusEquipmentList.find(({ id }) => id === item)
-                        if (!!thisEquipment) {
-                           const imageLink = thisEquipment.image
-                           return <span key={index}><img src={imageLink} alt={content.name} width={50} height={50} /></span>
-                        } else {
-                           return ""
-                        }
-                     })}
-                  </div>
+
+                  {Object.keys(content.suggestEquip).map((rarity, indexRarity) => {
+
+                     { console.log(" ") }
+                     { console.log(" ") }
+                     { console.log(" ") }
+                     { console.log(" ") }
+                     { console.log("rarity", rarity) }
+                     { console.log("suggestEquip", content.suggestEquip[rarity]) }
+
+                     { console.log("equipmentList", equipmentList) }
+                     { console.log(" equipmentList[`${rarity}EquipmentList`]", equipmentList[`${rarity}EquipmentList`]) }
+                     { console.log("equipmentList", equipmentList[`${[`${rarity}EquipmentList`]}EquipmentList`]) }
+
+                     return <div key={indexRarity} className={styles.ModalHeroContentBodyBlockContent}>
+                        {content.suggestEquip[rarity].length > 0 ? <div>
+
+                           <div className={styles.ModalHeroContentBodyBlockContentTitle}>
+                              {captalizeText(rarity)}
+                           </div>
+                           <div className={styles.ModalHeroContentBodyBlockContentList}>
+                              {content.suggestEquip[rarity].map((item, indexItem) => {
+                                 const thisEquipment = equipmentList[`${rarity}EquipmentList`].find(({ id }) => id === item)
+                                 if (!!thisEquipment) {
+                                    const imageLink = thisEquipment.image
+                                    // console.log("imageLink", imageLink)
+                                    return <span key={indexItem}><img src={imageLink} alt={content.name} width={50} height={50} /></span>
+                                 } else {
+                                    return ""
+                                 }
+                              })}
+                           </div>
+
+
+                        </div> : ""}
+                     </div>
+                  })}
                </div>
 
 

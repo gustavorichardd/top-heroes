@@ -147,4 +147,5 @@ const mythicPlusEquipmentList = [
    },
 ]
 
-export { epicEquipmentList, legendaryEquipmentList, mythicPlusEquipmentList }
+const equipmentList = { epicEquipmentList, legendaryEquipmentList, mythicPlusEquipmentList }
+export default equipmentList
