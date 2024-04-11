@@ -9,9 +9,10 @@ import logo from "../assets/logo.png"
 import Heroes from "./pages/Heroes/heroes";
 import About from "./pages/About/about";
 import Equipments from "./pages/Equipments/equipments";
+import Tips from "./pages/Tips/tips";
 
 export default function Home() {
-  const [pageSelected, setPageSelected] = React.useState("heroes")
+  const [pageSelected, setPageSelected] = React.useState("home")
   const [openMenu, setOpenMenu] = React.useState(false)
 
   React.useEffect(() => {
@@ -60,7 +61,7 @@ export default function Home() {
 
           switch (pageSelected) {
             case "home": {
-              return <span className='text-white shadow-black'>Seu canal para informações sobre o jogo Top Heroes</span>
+              return <span className='text-white shadow-black'>Your place for Top Heroes information and Tips.</span>
             }
 
             case "heroes": {
@@ -70,7 +71,7 @@ export default function Home() {
               return <Equipments />
             }
             case "tips": {
-              return <span className='text-white shadow-black'>SPágina das dicas</span>
+              return <Tips />
             }
 
             case "updated": {

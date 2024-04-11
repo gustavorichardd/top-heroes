@@ -61,17 +61,6 @@ const ModalHero = ({ content, onClose }) => {
 
                   {Object.keys(content.suggestEquip).map((rarity, indexRarity) => {
 
-                     // { console.log(" ") }
-                     // { console.log(" ") }
-                     // { console.log(" ") }
-                     // { console.log(" ") }
-                     // { console.log("rarity", rarity) }
-                     // { console.log("suggestEquip", content.suggestEquip[rarity]) }
-
-                     // { console.log("equipmentList", equipmentList) }
-                     // { console.log(" equipmentList[`${rarity}EquipmentList`]", equipmentList[`${rarity}EquipmentList`]) }
-                     // { console.log("equipmentList", equipmentList[`${[`${rarity}EquipmentList`]}EquipmentList`]) }
-
                      return <div key={indexRarity} className={styles.ModalHeroContentBodyBlockContent}>
                         {content.suggestEquip[rarity].length > 0 ? <div>
 
