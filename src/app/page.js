@@ -45,7 +45,7 @@ export default function Home() {
             <p onClick={() => setPageSelected("blacksmith")}>Equipments</p>
           </div>
           <div>
-            <p onClick={() => setPageSelected("tips")}>Tips</p>
+            <p onClick={() => setPageSelected("tips")}>Tips and SEEKS</p>
           </div>
           <div>
             <p onClick={() => setPageSelected("updated")}>Latest News</p>
