@@ -61,7 +61,7 @@ export default function Home() {
 
           switch (pageSelected) {
             case "home": {
-              return <span className='text-white shadow-black'>Your place for Top Heroes information and Tips.</span>
+              return <span className='text-white shadow-black'>Your place for Top Heroes information and Tips (TEST).</span>
             }
 
             case "heroes": {
