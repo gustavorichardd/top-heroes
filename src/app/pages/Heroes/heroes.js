@@ -141,7 +141,7 @@ function Heroes() {
                             alt={hero.name}
                             width={100}
                             height={100}
-                            className={styles.logo}
+                            className={styles.logo}   
                             priority
                         />
                     </div>
