@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Top Heroes',
-  description: 'Created by SASUKE (sv29)',
+  description: 'Comunidade Brasileiro de TopHeroes',
 }
 
 export default function RootLayout({ children }) {
