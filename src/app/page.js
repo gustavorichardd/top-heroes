@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react"
-import Image from 'next/image'
+import Image from 'next/image' // Certifique-se de que o componente Image está importado
 
 import logo from "../assets/logo.png"
 
@@ -31,111 +31,159 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start gap-10 pb-10 max-h-screen mt-5">
+    <main className="flex min-h-screen flex-col items-center justify-start gap-10 pb-10 max-h-screen mt-7">
       <header className="flex flex-col w-full items-center justify-between">
         <div className="flex flex-row w-full items-center justify-center">
           <Image width={60} height={60}
             onClick={() => setPageSelected("home")}
             style={{ borderRadius: 15 }}
             src={logo} alt="LOGO TOP HEROES" />
-          <strong className='text-white shadow-black ml-4 text-4xl uppercase flex items-center'>
-            COMUNIDADE TOP HEROES
+          <strong className='text-white shadow-black ml-4 text-3xl uppercase flex items-center'>
+            TOP HEROES
           </strong>
         </div>
       </header>
 
-      <div className="flex flex-col w-full items-start justify-start">
-        {(() => {
-          switch (pageSelected) {
-            case "home": {
-              return (
-                <div className="w-full text-center">
-                  <Image
-                    src="/assets/entrada.jpg"
-                    alt="Capa Top Heroes"
-                    layout="responsive"
-                    width={1200}
-                    height={400}
-                    className="rounded-lg"
-                  />
-                  <div className="mt-3">
-                    <h2 className="text-3xl font-bold text-white">SEJA BEM-VINDO AO GUIA DA COMUNIDADE</h2>
-                    <h2 className="text-3xl font-bold text-white">BRASILEIRA DE TOP HEROES</h2>
-                    <div className="flex justify-center gap-10 mt-5">
-                      {/* Menu Suspenso Top Heroes I */}
-                      <div className="relative">
-                        <div
-                          onClick={toggleMenuI}
-                          className="cursor-pointer"
-                        >
-                          <Image
-                            src="/assets/top1.png"
-                            alt="Top Heroes I"
-                            width={150} // Ajuste o tamanho conforme necessário
-                            height={50}
-                          />
-                        </div>
-                        {isMenuIOpen && (
-                          <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-48 bg-white rounded-lg shadow-lg z-10 transition-all duration-300 origin-top">
-                            <p onClick={() => handlePageChange("heroes")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Heroes</p>
-                            <p onClick={() => handlePageChange("blacksmith")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Equipments</p>
-                            <p onClick={() => handlePageChange("tips")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Tips and SEEKS</p>
-                            <p onClick={() => handlePageChange("about")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">About</p>
+      <div className="flex-grow w-full">
+        <div className="flex flex-col w-full items-start justify-start">
+          {(() => {
+            switch (pageSelected) {
+              case "home": {
+                return (
+                  <div className="w-full text-center">
+                    <Image
+                      src="/assets/entrada.jpg"
+                      alt="Capa Top Heroes"
+                      layout="responsive"
+                      width={1200}
+                      height={400}
+                      className="rounded-lg"
+                    />
+                    <div className="mt-3">
+                      <h4 className="text-3xl font-bold text-white">SEJA BEM-VINDO AO GUIA DA COMUNIDADE</h4>
+                      <h4 className="text-3xl font-bold text-white">BRASILEIRA DE TOP HEROES</h4>
+                      <div className="flex justify-center gap-10 mt-5">
+                        {/* Menu Suspenso Top Heroes I */}
+                        <div className="relative">
+                          <div
+                            onClick={toggleMenuI}
+                            className="cursor-pointer"
+                          >
+                            <Image
+                              src="/assets/top1.png"
+                              alt="Top Heroes I"
+                              width={150} // Ajuste o tamanho conforme necessário
+                              height={50}
+                            />
                           </div>
-                        )}
-                      </div>
+                          {isMenuIOpen && (
+                            <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-48 bg-white rounded-lg shadow-lg z-10 transition-all duration-300 origin-top">
+                              <p onClick={() => handlePageChange("heroes")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Heroes</p>
+                              <p onClick={() => handlePageChange("blacksmith")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Equipments</p>
+                              <p onClick={() => handlePageChange("tips")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Tips and SEEKS</p>
+                              <p onClick={() => handlePageChange("about")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">About</p>
+                            </div>
+                          )}
+                        </div>
 
-                      {/* Menu Suspenso Top Heroes II */}
-                      <div className="relative">
-                        <div
-                          onClick={toggleMenuII}
-                          className="cursor-pointer"
-                        >
-                          <Image
-                            src="/assets/top2.png"
-                            alt="Top Heroes II"
-                            width={150} // Ajuste o tamanho conforme necessário
-                            height={50}
-                          />
-                        </div>
-                        {isMenuIIOpen && (
-                          <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-48 bg-white rounded-lg shadow-lg z-10 transition-all duration-300 origin-top">
-                            <p onClick={() => handlePageChange("heroes")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Heroes</p>
-                            <p onClick={() => handlePageChange("blacksmith")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Equipments</p>
-                            <p onClick={() => handlePageChange("tips")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Tips and SEEKS</p>
-                            <p onClick={() => handlePageChange("about")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">About</p>
+                        {/* Menu Suspenso Top Heroes II */}
+                        <div className="relative">
+                          <div
+                            onClick={toggleMenuII}
+                            className="cursor-pointer"
+                          >
+                            <Image
+                              src="/assets/top2.png"
+                              alt="Top Heroes II"
+                              width={150} // Ajuste o tamanho conforme necessário
+                              height={50}
+                            />
                           </div>
-                        )}
+                          {isMenuIIOpen && (
+                            <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-48 bg-white rounded-lg shadow-lg z-10 transition-all duration-300 origin-top">
+                              <p onClick={() => handlePageChange("heroes")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Heroes</p>
+                              <p onClick={() => handlePageChange("blacksmith")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Equipments</p>
+                              <p onClick={() => handlePageChange("tips")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">Tips and SEEKS</p>
+                              <p onClick={() => handlePageChange("about")} className="cursor-pointer px-4 py-2 hover:bg-gray-200">About</p>
+                            </div>
+                          )}
+                        </div>
                       </div>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
                     </div>
                   </div>
-                </div>
-              )
-            }
+                )
+              }
 
-            case "heroes": {
-              return <Heroes />
-            }
-            case "blacksmith": {
-              return <Equipments />
-            }
-            case "tips": {
-              return <Tips />
-            }
+              case "heroes": {
+                return <Heroes />
+              }
+              case "blacksmith": {
+                return <Equipments />
+              }
+              case "tips": {
+                return <Tips />
+              }
 
-            case "updated": {
-              return <span className='text-white shadow-black'>Página das atualizações</span>
-            }
+              case "updated": {
+                return <span className='text-white shadow-black'>Página das atualizações</span>
+              }
 
-            case "about": {
-              return <About />
+              case "about": {
+                return <About />
+              }
+              default: {
+                return <></>
+              }
             }
-            default: {
-              return <></>
-            }
-          }
-        })()}
+          })()}
+        </div>
       </div>
+
+      {/* Rodapé */}
+      <footer className="w-full bg-gray-600 text-white text-center py-4">
+        <div className="flex flex-col items-center gap-2">
+          <p className="text-sm">
+            Grupo da Comunidade:{" "}
+            <a
+              href="https://chat.whatsapp.com/ICW6cuRGVraKk0tThtmUQc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-400 hover:text-green-300"
+            >
+              Clique aqui para entrar no WhatsApp
+            </a>
+          </p>
+          <p className="text-sm">
+            Desenvolvido por{" "}
+            <span className="font-semibold">SrAlef e Kakashi_51</span>
+          </p>
+        </div>
+      </footer>
+
+
+      {/* Botão Flutuante do WhatsApp */}
+      <a
+        href="https://chat.whatsapp.com/ICW6cuRGVraKk0tThtmUQc"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-green-600 text-white p-2 rounded-full shadow-lg hover:bg-green-600 transition-colors"
+      >
+        <Image
+          src="/assets/whatsapp-icon.png"
+          alt="WhatsApp"
+          width={40}
+          height={40}
+        />
+      </a>
     </main>
   )
 }
