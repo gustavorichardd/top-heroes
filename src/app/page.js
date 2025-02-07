@@ -224,24 +224,6 @@ export default function Home() {
                           )}
                         </div>
                       </div>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
                     </div>
                   </div>
                 )
@@ -273,6 +255,24 @@ export default function Home() {
       </div>
 
       {/* Rodapé */}
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <footer className="w-full bg-gray-800 text-white py-6">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-8 sm:gap-4">
